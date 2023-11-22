@@ -20,7 +20,7 @@ export function Activity({data = []} : ActivityProps) {
 
         <ol className='mt-2 space-y-2'>
             {data.map(item => (
-                <ActivityItem data={item} />
+                <ActivityItem key={item.id} data={item} />
             ))}
         </ol>
      </div>

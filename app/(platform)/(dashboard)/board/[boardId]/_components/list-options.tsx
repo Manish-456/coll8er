@@ -99,7 +99,7 @@ export function ListOptions({ data, onAddCard }: ListOptionsProps) {
             variant="ghost"
             className="rounded-none w-full h-auto p-2 px-5 justify-start font-normal text-sm"
           >
-            Duplicate "{data.title}"
+            Duplicate &quot;{data.title}&quot;
           </FormSubmit>
         </form>
         <Separator />
@@ -116,7 +116,7 @@ export function ListOptions({ data, onAddCard }: ListOptionsProps) {
             variant="ghost"
             className="rounded-none w-full h-auto p-2 px-5 justify-start font-normal text-sm"
           >
-            Delete "{data.title}"
+            Delete &quot;{data.title}&quot;
           </FormSubmit>
         </form>
       </PopoverContent>
