@@ -51,7 +51,7 @@ export default function MarketingPage() {
         </div>
 
         <Button variant={"primary"} className="mt-6" size={"lg"} asChild>
-          <Link href={"/sign-up"}>Get Coll8er for free.</Link>
+          <Link href={"/sign-up"}>Sign-up. It&apos;s free.</Link>
         </Button>
       </div>
       <div
