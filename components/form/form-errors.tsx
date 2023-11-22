@@ -6,7 +6,6 @@ interface FormErrorsProps {
 }
 
 export function FormErrors({ id, errors }: FormErrorsProps) {
-  console.log(`[Errors from FormErrors]`, errors);
   return (
     <div
       id={`${id}-error`}

@@ -46,8 +46,7 @@ export function FormPopover({
     onError: (error) => {
       toast.error(error);
       proModal.onOpen();
-    },
-    onComplete: () => console.log("Completed"),
+    }
   });
 
   const onSubmit = (formData: FormData) => {
